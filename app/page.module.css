@@ -137,6 +137,7 @@
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
+    padding: 0 20px; /* Tambahkan padding sisi untuk mobile */
   }
 
   .card {
@@ -226,5 +227,57 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+/* Penyesuaian Grid untuk Tablet dan Mobile */
+@media (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* Dua kolom untuk tablet */
+  }
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr; /* Satu kolom untuk mobile */
+    padding: 0 20px; /* Tambahkan padding sisi untuk mobile */
+  }
+
+  .main,
+  .content {
+    padding: 4rem 2rem; /* Kurangi padding untuk mobile */
+  }
+
+  .description,
+  .card p,
+  .card h2 {
+    font-size: 0.8rem; /* Kurangi font size untuk mobile */
+  }
+
+  .card {
+    padding: 1rem; /* Kurangi padding kartu untuk mobile */
+  }
+}
+
+/* Penyesuaian untuk Preferensi Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .card span,
+  .logo,
+  .center::before,
+  .center::after {
+    transition: none; /* Nonaktifkan transisi untuk pengguna yang memilih reduced motion */
+  }
+}
+
+/* Penyesuaian untuk Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212; /* Latar belakang gelap */
+    color: #e0e0e0; /* Warna teks terang */
+  }
+
+  .card,
+  .description p {
+    background-color: #333; /* Latar belakang kartu dan deskripsi pada dark mode */
+    border-color: #444; /* Warna border pada dark mode */
   }
 }

@@ -1,0 +1,356 @@
+.frameChild {
+  width: 40px;
+  position: relative;
+  height: 32px;
+  right: 60px;
+  bottom: 160px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frameItem {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.frameInner {
+  width: 31px;
+  position: relative;
+  right: 55px;
+  bottom: 170px;
+  border-top: 1px solid #065a98;
+  box-sizing: border-box;
+  height: 1px;
+  opacity: 0.3;
+}
+
+.frameChild:hover{
+  background-color: #065a98;
+}
+
+.frameGroup {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 16px;
+}
+
+.umum {
+  width: 212px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  left: 7px;
+  display: inline-block;
+}
+
+.iconParkeveryUser {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconPemesananKendaraan {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  bottom: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.pemesananRuang {
+  width: 170px;
+  text-align: center;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  right: 30px;
+  bottom: 16px;
+  margin-top: 32px;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  flex-shrink: 0;
+  /* color: #8711FD; */
+}
+.pemesananKendaraan {
+  width: 170px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  right: 15px;
+  text-align: center;
+  bottom: 16px;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.iconParkeveryUserParent {
+  width: 212px;
+  border-radius: var(--br-9xs);
+  /* background-color: #E8D1FF; */
+  margin-top: 17px;
+  display: flex;
+  height: 35px;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--culture-networking);
+}
+
+.iconParkeveryUserParent.active {
+  background-color: #e8d1ff;
+  color: #8711fd;
+}
+.iconParkeveryUserParent:hover {
+  background-color: #e8d1ff;
+  color: #8711fd;
+}
+
+.tutorialPesemesananRuangWrapper:hover,
+.reservasiRuangRapatWrapper:hover,
+.iconParkcarParent:hover {
+  background-color: #e8d1ff;
+  border-radius: 5px;
+  color: #8711fd;
+}
+
+.iconParkcarParent.active {
+  background-color: #e8d1ff;
+  padding-top: 17px;
+  border-radius: 5px;
+  height: 38px;
+  color: #8711fd;
+}
+
+.iconParkcarParent:hover {
+  background-color: #e8d1ff;
+  padding-top: 17px;
+  border-radius: 5px;
+  height: 38px;
+  color: #8711fd;
+}
+
+.tutorialPesemesananRuang {
+  width: 170px;
+  text-align: center;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  top: 5px;
+  cursor: pointer;
+  bottom: 5px;
+}
+
+.tutorialPesemesananRuangWrapper {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  border-radius: var(--br-9xs);
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  background: linear-gradient(-87.33deg, #fff, rgba(255, 255, 255, 0));
+  width: 20px;
+  height: 32px;
+}
+
+.frameContainer {
+  width: 212px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+}
+
+.reservasiRuangRapat {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+  cursor: pointer;
+  /* background-color: #E8D1FF; */
+  /* color: #8711FD; */
+}
+
+.reservasiRuangRapatWrapper {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-thistle);
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+
+.frameChild7 {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  background: linear-gradient(-87.33deg, #fff, rgba(255, 255, 255, 0));
+  width: 20px;
+  height: 32px;
+  display: none;
+}
+
+.frameDiv {
+  width: 212px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  color: var(--culture-networking);
+}
+
+.iconParkcarParent {
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 102px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+
+.umumParent {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+
+.privacyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #989898;
+}
+
+.frameParent2 {
+  position: absolute;
+  top: 150px;
+  margin-top: 490px;
+  margin-left: 12px;
+  left: 70px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+  gap: 16px;
+  font-size: 16px;
+  color: #262626;
+}
+
+.copyright2022Container {
+  width: 280px;
+  position: relative;
+  font-size: 13px;
+  line-height: 20px;
+  color: #747474;
+  display: inline-block;
+}
+
+.allRightReserved {
+  margin: 0;
+}
+
+.frameParent {
+  width: 290px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: var(--light);
+  height: 472px;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  position: absolute;
+  top: 170px;
+  left: 70px;
+}
+
+.dropdownMenu {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.dropdownOpen {
+  max-height: 100px;
+  transition: max-height 0.3s ease-in;
+}
+
+.active {
+  background-color: #e8d1ff;
+}
+
+.dropdownMenu {
+  padding: 5px 0; /* Adds padding to the top and bottom of the dropdown menu */
+}
+
+.tutorialPesemesananRuangWrapper,
+.reservasiRuangRapatWrapper,
+.iconParkcarParent {
+}
+
+.frameContainer,
+.frameDiv {
+  padding: 5px 0;
+}
+
+.tutorialPesemesananRuang,
+.reservasiRuangRapat,
+.pemesananRuang,
+.pemesananKendaraan {
+  padding: 5px 5px; /* Adds padding inside the text elements for better spacing */
+}

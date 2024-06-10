@@ -33,7 +33,6 @@ body {
   /* Border radiuses */
   --br-21xl: 40px;
   --br-6xl: 25px;
-<<<<<<< HEAD
    /* fonts */
    --font-inter: Inter;
 
@@ -70,10 +69,6 @@ body {
 }
 
 
-=======
-}
-
->>>>>>> d66837866683f443d09f0c1aa9926b9df5f77e69
 /* Media Queries */
 /* Untuk tablet */
 @media (max-width: 768px) {

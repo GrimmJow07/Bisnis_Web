@@ -1,1 +1,5 @@
-{}
+{
+  "/not-found": "app/not-found.js",
+  "/pages/dashboard/page": "app/pages/dashboard/page.js",
+  "/pages/reservasiRuang/page": "app/pages/reservasiRuang/page.js"
+}

@@ -6,23 +6,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/pages/reservasiRuang/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/css/app/pages/reservasiRuang/page.css",
+      "static/chunks/app/pages/reservasiRuang/page.js"
     ],
     "/pages/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/pages/dashboard/page.css",
       "static/chunks/app/pages/dashboard/page.js"
-    ],
-    "/pages/reservasiRuang/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/pages/reservasiRuang/page.css",
-      "static/chunks/app/pages/reservasiRuang/page.js"
     ],
     "/not-found": [
       "static/chunks/webpack.js",
